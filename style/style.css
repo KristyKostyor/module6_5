@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    min-width: 320px;
+    min-height: 100vh;
+    transition: 0.3s ease-in-out;
+}
+
+
+button {
+    padding: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+    margin: 0;
+}
+
+iframe {
+    border: none;
+}
+
+/*
+Доступно скрываю элементы
+*/
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+.container {
+    max-width: 1433px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
