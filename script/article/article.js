@@ -31,6 +31,5 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 });
-const params = new URLSearchParams(window.location.search);
-const articleId = params.get("id");
-console.log("Article ID:", articleId);
+
+
