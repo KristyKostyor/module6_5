@@ -1,8 +1,11 @@
 import { fetchData } from "./api.js";
 
+
 document.addEventListener("DOMContentLoaded", async () => {
   const params = new URLSearchParams(window.location.search);
+    console.log("params", params);
   const articleId = params.get("id");
+  console.log('articleId', articleId);
 
   if (articleId) {
     try {
